@@ -27,7 +27,7 @@ const HikingRoute = ({ path }) => {
 
 const MyHikingMap = (props) => {
 
-  const center = { lat: 33.973982185997585, lng: -117.93105185067701 };//33.973982185997585, -117.93105185067701
+  const center = { lat: 33.99364532008508, lng: -117.96732288625016 };//33.99364532008508, -117.96732288625016
 
   const trailPoints = [
     { lat: 34.117747030034806, lng: -118.32982868784912 }, // Example point 1
@@ -73,7 +73,7 @@ return (
     <div style={{ height: '600px', width: '100%' }}>
       <Map
         defaultCenter={center}
-        defaultZoom={15}
+        defaultZoom={13}
         mapId="f77567173107e0424cdfdbdc"
       >
         {trailCoordinates.length > 0 && <HikingRoute path={trailCoordinates} />}

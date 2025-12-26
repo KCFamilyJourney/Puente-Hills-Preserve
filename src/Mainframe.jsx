@@ -13,6 +13,11 @@ function Mainframe(){
             pos: {lat: 33.96596342774215,lng: -117.9177018324779}, //33.96596342774215, -117.9177018324779
             alltrails: "https://www.alltrails.com/trail/us/california/powder-canyon-loop-trail?u=i&sh=sqfqqm"
         },
+        {   name: "Coyote and Ahwingna Trail Loop",
+            file: "CoyoteAhwingna.csv",
+            pos: {lat: 34.009636425930886,lng: -117.99397680703342}, //34.009636425930886, -117.99397680703342
+            alltrails: "https://www.alltrails.com/trail/us/california/coyote-and-ahwingna-trail-loop?u=i&sh=sqfqqm"
+        },
     ];
     const [selectedOption, setSelectedOption] = useState(0); // Initial selected option
 
